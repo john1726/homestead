@@ -30,7 +30,11 @@
                     @endauth
                 </div>
             @endif
-
+            
+            <div class="content">
+                <div class="title m-b-md">
+                    <h1 style="font-size: 50px; font-weight: bolder" class="col-xs-8 text-center">LEDCA Calgary</h1>
+                </div>
             <div class="max-w-7xl mx-auto p-6 lg:p-8">
                 <div class="flex justify-center">
                     <svg viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto bg-gray-100 dark:bg-gray-900">
@@ -134,6 +138,7 @@
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </body>
