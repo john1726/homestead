@@ -26,13 +26,13 @@
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li class="separator"></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#">About Us</a></li>
                         <li class="separator"></li>
-                        <li><a href="/menu">Menu</a></li>
+                        <li><a href="/menu">Programs</a></li>
                         <li class="separator"></li>
-                        <li><a href="#">Reservations</a></li>
+                        <li><a href="#">Events</a></li>
                         <li class="separator"></li>
-                        <li><a href="#">Location &amp; Hours</a></li>
+                        <li><a href="#">Information</a></li>
                         <li class="separator"></li>
                         <li><a href="#">Contact</a></li>
                         <li class="separator"></li>

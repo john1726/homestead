@@ -3,41 +3,35 @@
 @section('title', 'A federal not-for-profit that seeks to address issues affecting marginalized Canadians')
 
 @section('content')
-<h4 class="intro">Creating memories, one experience at a time</h4>               
+<h4 class="intro">Welcome to LEDCA Official Website</h4>               
 <p>
-    Nadia’s Garden Restaurant isn’t just about dining. We’re about creating memorable experiences that our guest will cherish! 
-    Our family friendly restaurant has indoor, outdoor, and intimate dining options for any occasion. 
-    Our outdoor garden area is perfect for a stroll before or after your meal. We invite you to come dine with us!
+    LEDCA is a federal not-for-profit organization that seeks to address the issues affecting marginalized Canadians especially those of Kenyan origin, the black communities and visible minorities while assisting newcomers to settle and make a positive contribution in the society as they endeavor to achieve their goals
 </p>
-<img src="/images/patio.jpg" class="home">
+<img src="/images/association.jpg" class="home">
 <div class="menu-categories">
     <article>
-        <a href="#"><img src="/images/mushrooms.jpg"></a>
-        <h2><a href="#">Starters</a></h2>
+        <a href="#"><img src="/images/volunteer.jpg"></a>
+        <h2><a href="#">Volunteer</a></h2>
     </article>                
     <article>
-        <a href="#"><img src="/images/salad.jpg"></a>
-        <h2><a href="#">Salads</a></h2>
+        <a href="#"><img src="/images/image_102_intro_small.jpg"></a>
+        <h2><a href="#">Women's Day</a></h2>
     </article>                
     <article>
-        <a href="#"><img src="/images/burger.jpg"></a>
-        <h2><a href="#">Entrees</a></h2>
+        <a href="#"><img src="/images/image_99_intro.jpg"></a>
+        <h2><a href="#">Senior's Day</a></h2>
     </article>                
     <article>
-        <a href="#"><img src="/images/brownie.jpg"></a>
-        <h2><a href="#">Desserts</a></h2>
+        <a href="#"><img src="/images/image_100_intro.jpg"></a>
+        <h2><a href="#">Newcomers</a></h2>
     </article>                
 </div>
 <div class="social">
     <div>
-        <h4>What our customers say</h4>
+        <h4>What our members say</h4>
         <p>
-            This place has, without a doubt, some of the best pizza I have ever had! 
-            The owners are hands on and made sure we had everything we needed.
-            They are an eclectic eatery, with a large variety of meals to choose from, 
-            but everything I’ve tried from their menu has been great. 
-            It’s definitely a place you have to give a few tries to get a feel for everything they have to offer. 
-            Oh, and their crème brulee is amazing!<br>
+            
+Kenyan Canadian Association (KCA) held the Inuagural International Women's Day Workshop & Celebration Dinner on March 11, 2023 in Brampton, Ontario, Canada. The colorful event was grace by invited local and international dignitaries and special guests.<br>
             <br>
             Shad Cayden
         </p>
