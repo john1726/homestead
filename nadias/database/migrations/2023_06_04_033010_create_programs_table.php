@@ -1,8 +1,9 @@
 <?php
 
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 return new class extends Migration
 {
@@ -13,13 +14,14 @@ return new class extends Migration
     {
         Schema::create('programs', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
+            $table->string('title')->default('');
             $table->longText('description');
-            $table->date('startdate');
-            $table->date('enddate');
-            $table->string('location');
-            $table->string('url');
-            $table->string('contact');
+            $table->date('startdate')->default(date("Y-m-d H:i:s"));
+            $table->date('enddate')->default(date("Y-m-d H:i:s"));
+            $table->string('location')->default('');
+            $table->string('url')->default('');
+            $table->string('contact')->default('');
+            $table->unsignedInteger('display_order')->default(1);
             $table->timestamps();
         });
     }

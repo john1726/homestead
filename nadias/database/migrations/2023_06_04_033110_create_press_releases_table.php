@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('location');
             $table->string('url');
             $table->string('contact');
+            $table->unsignedInteger('display_order');
             $table->timestamps();
         });
     }

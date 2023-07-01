@@ -19,7 +19,8 @@ return new class extends Migration
             $table->date('enddate');
             $table->string('location');
             $table->string('url');
-            $table->string('contact');            
+            $table->string('contact');   
+            $table->unsignedInteger('display_order');     
             $table->timestamps();
         });
     }
