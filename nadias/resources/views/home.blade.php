@@ -9,22 +9,12 @@
 </p>
 <img src="/images/association.jpg" class="home">
 <div class="menu-categories">
-    <article>
-        <a href="#"><img src="/images/volunteer.jpg"></a>
-        <h2><a href="#">Volunteer</a></h2>
-    </article>                
-    <article>
-        <a href="#"><img src="/images/image_102_intro_small.jpg"></a>
-        <h2><a href="#">Women's Day</a></h2>
-    </article>                
-    <article>
-        <a href="#"><img src="/images/image_99_intro.jpg"></a>
-        <h2><a href="#">Senior's Day</a></h2>
-    </article>                
-    <article>
-        <a href="#"><img src="/images/image_100_intro.jpg"></a>
-        <h2><a href="#">Newcomers</a></h2>
-    </article>                
+    @foreach ($programs as $prog)
+        <article>
+            <a href="/menu#{{str_slug($prog->title)}}"><img src="/images/{{$prog->image}}"></a>
+            <h2><a href="/menu#{{str_slug($prog->title)}}">{{$prog->title}}</a></h2>
+        </article>   
+    @endforeach               
 </div>
 <div class="social">
     <div>

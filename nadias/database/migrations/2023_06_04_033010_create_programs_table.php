@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('location')->default('');
             $table->string('url')->default('');
             $table->string('contact')->default('');
+            $table->string('image')->default('');
             $table->unsignedInteger('display_order')->default(1);
             $table->timestamps();
         });
