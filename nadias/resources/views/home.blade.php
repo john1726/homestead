@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'A federal not-for-profit that seeks to address issues affecting marginalized Canadians')
+@section('title', '- A federal not-for-profit that seeks to address issues affecting marginalized Canadians')
 
 @section('content')
 <h4 class="intro">Welcome to LEDCA Official Website</h4>               
