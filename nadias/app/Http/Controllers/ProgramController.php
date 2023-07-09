@@ -14,6 +14,7 @@ class ProgramController extends Controller
      */
     public function index()
     {
+        $this->authorize('manage', 'App\Program');
         $programs = Program::orderBy('display_order')->get();
         return view('admin.programs.index', [
 			'programs' => $programs
