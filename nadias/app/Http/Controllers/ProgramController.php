@@ -21,6 +21,12 @@ class ProgramController extends Controller
 		]);
     }
 
+    public function upsert()
+    {
+        $this->authorize('manage', 'App\Models\Program');
+        return ['success' => true];
+    }
+
     /**
      * Show the form for creating a new resource.
      *

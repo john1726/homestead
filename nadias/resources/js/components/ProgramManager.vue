@@ -25,6 +25,9 @@
                 programs: _.cloneDeep(this.initialPrograms)
             };
         },
+        created() {
+            axios.post('/api/programs/upsert');
+        },
         methods: {
             removeProgram(index) {
                 if (confirm('Are you sure?')) {
