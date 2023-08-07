@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/programs/upsert', 'ProgramController@upsert');
+Route::post('/programs/upsert', [App\Http\Controllers\ProgramController::class, 'upsert']);
